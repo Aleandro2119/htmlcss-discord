@@ -1,0 +1,82 @@
+/*General*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Whitney', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+}
+
+
+/*Utils*/
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.col{
+    float: left;
+}
+
+.w-20{
+    width: 20%;
+}
+
+.w-60{
+    width: 60%;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Header*/
+/*Header-top*/
+header{
+    background-color: #3161E0;
+}
+
+.header-top{
+    height: 70px;
+    line-height: 70px;
+}
+
+#logo{
+    vertical-align: middle;
+    
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0 20px;
+    list-style-type: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
+/*Buttons*/
+.button{
+    margin: 0 20px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.btn-color{
+    background-color: white;
+    color: black;
+}
+
+
