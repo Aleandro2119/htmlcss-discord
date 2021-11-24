@@ -16,6 +16,11 @@ body{
     margin: 0 auto;
 }
 
+.container-main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .col{
     float: left;
 }
@@ -26,6 +31,14 @@ body{
 
 .w-60{
     width: 60%;
+}
+
+.w-65{
+    width: 65%;
+}
+
+.w-35{
+    width: 35%;
 }
 
 .clearfix::after{
@@ -84,6 +97,11 @@ header{
     color: white;
 }
 
+.btn-blue{
+    background-color: #8EA1E1;
+    color: white;
+}
+
 
 /*Spotlight*/
 .spotlight{
@@ -117,4 +135,46 @@ header{
 
 .position-text a{
     padding: 15px 30px;
+}
+
+/*MAIN*/
+
+.section-form{
+    margin-top: 150px;
+}
+
+.section-form h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-top: 40px;
+    color: #23272A;
+}
+
+.section-form p{
+    margin-top: 30px;
+    padding-left: 20px;
+    line-height: 25px;
+    color: #23272A;
+}
+
+.layout-text{
+    text-align: center;
+}
+
+.layout-text h2{
+    margin-top: 140px;
+    font-size: 40px;
+    color: #23272A;
+}
+
+.layout-text p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #23272A;
+}
+
+.layout-text img{
+    margin-top: 20px;
 }
